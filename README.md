@@ -18,6 +18,10 @@ This tic-tac-toe game currently:
 
 * You can run this with `npm start` from inside the `tictactoe` directory.
 
+* The code that's running is in the /src directory - that's what you need to change!
+
+* The solution_src directory is just that - the solution - don't look before trying!
+
 ### Task
 
 Your job is to allow players to jump back in time to see older versions of the game board.
