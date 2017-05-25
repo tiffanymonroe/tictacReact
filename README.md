@@ -1,3 +1,5 @@
+# Lab: Tic-Tac-Toe
+
 Let's practice from an existing codebase.
 
 This repository contains the code for existing tic tac toe game programming in JavaScript using React. You can see it running [here](https://susiremondi.github.io/tictacReact/).
@@ -22,9 +24,7 @@ Your job is to allow players to jump back in time to see older versions of the g
 
 Each move in the move list should be a link to jump back to that move. If you click any move link, the board should immediately update to show what the game looked like at that time.
 
-Also, update `handleClick` to be aware of `stepNumber` when reading the current board state so that you can go back in time, then click in the board to create a new entry.
-
-> Hint: It's easiest to `.slice()` off the extra elements from history at the very top of `handleClick`.
+Also, update `handleClick` so that when reading the current board state when you can go back in time, you can then click in the board to create a new entry.
 
 **You can see the desired solution [here](https://susiremondi.github.io/tictacSolution/)**
 
@@ -44,15 +44,10 @@ Try it yourself in the solution link above.
 
 
 ### Hints
-- Keep track of the steps (so if we want to jump to move 3, we know what move 3 was!).
-  - What do you declare in the constructor as a way to keep track of things?
-- This will need to be updated whenever the user clicks a move
-- You'll need a function that jumps to the right step and keeps track of who's next!
-- Make sure you update `render` to make sure it pulls the right `history`
-- Make sure `history` is updated correctly in the `handleClick` method
-  -  a useful function is `.slice`, which makes a subset of an array. For example,
-  `const history = this.state.history.slice(0, --where you are trying to go!--);`
-- Don't forget to make the moves links!
+
+Note: In the code, a 'move' is also referred to as a 'step'.
+
+In the repository root folder, there is a file called `"hints.rtf"` which includes a breakdown (in English!) of what needs to be done.
 
 
 ## Solution
