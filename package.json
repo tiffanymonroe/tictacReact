@@ -5,12 +5,11 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.5"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

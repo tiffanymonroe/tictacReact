@@ -4,6 +4,8 @@ import Game from './Game';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
+
+
 window.addEventListener('mousedown', function(e) {
   document.body.classList.add('mouse-navigation');
   document.body.classList.remove('kbd-navigation');
